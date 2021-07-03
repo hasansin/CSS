@@ -1,0 +1,41 @@
+
+
+a{
+  color: dodgerblue;
+}
+/*CSS pseudo-classes*/
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: black;
+}
+
+input{
+   border: 2px solid grey;
+   padding: 5px;
+   margin-top: 50px
+ }
+/*focus*/
+input:focus{
+  background: lightyellow;
+  border-color: blue;
+  outline: none;
+}
+/*first-child last-child*/
+li:first-child{
+  color: red;
+  background-color: yellow;
+  }
+
+li:last-child{
+  color:grey;
+  background-color: blue;
+}
+/*nth child */
+ li:nth-child(2){
+   color: yellow;
+   background-color: black;
+ }
+/* odd even*/
