@@ -55,8 +55,11 @@ li:nth-child(3n+1)
   color: brown;
 }
 
-/*Linguistic pseudo-classes*/
+/*Linguistic pseudo-classes
+The :dir() CSS pseudo-class matches elements based on the directionality of the text contained in them.*/
 .div01:dir(rtl)
 {
   background-color: red;
 }
+
+/* CSS gradients*/
